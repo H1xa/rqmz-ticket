@@ -12,7 +12,7 @@ const prefix = "+";
 
 client.on("ready", () => {
   console.log("Rqmz | Logged in! Server count: ${client.guilds.size}");
-  client.user.setGame(`Support Magic |${prefix}new`);
+  client.user.setGame(`Support Rqmz |${prefix}new`);
 });
 
 
