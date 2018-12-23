@@ -9,7 +9,6 @@ function clean(text) {
 }
 
 const prefix = "+";
-const token = "Token Your Bot";
 
 client.on("ready", () => {
   console.log("Rqmz | Logged in! Server count: ${client.guilds.size}");
@@ -86,4 +85,4 @@ if (message.content.toLowerCase().startsWith(prefix + `close`)) {
 
 });
 
-client.login(token);
+client.on("PROCESS.ENV.BOT_TOKEN")
