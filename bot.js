@@ -85,4 +85,5 @@ if (message.content.toLowerCase().startsWith(prefix + `close`)) {
 
 });
 
-client.on("PROCESS.ENV.BOT_TOKEN")
+client.login("PROCESS.ENV.BOT_TOKEN");
+
